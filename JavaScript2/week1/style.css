@@ -44,33 +44,42 @@ ul {
      font-weight: 600;
 }
 
-ul:hover {
-     box-shadow: 0 14px 28px rgba(100, 100, 100, 0.3), 0 10px 10px rgba(100, 100, 100, 0.3);
-     background-color: whitesmoke;
-}
-
 li {
      padding: 10px;
      margin: 10px;
 }
 
-li:hover {
-     box-shadow: 0 14px 28px rgba(100, 100, 100, 0.3), 0 10px 10px rgba(100, 100, 100, 0.3);
-     background-color: whitesmoke;
-}
-
 .list {
      display: flex;
-     justify-content: space-around;
-     flex-wrap: wrap;
+     justify-content: flex-start;
 }
 
 #repository {
      font-size: 2em;
      font-weight: bold;
      font-size: 1.5em;
+     width: 30%;
+}
+
+#repository ul li {
+     padding-top: 200px;
+}
+
+#repository ul li:nth-child(1) {
+     padding-top: 0px;
 }
 
 #repository_details {
      font-size: 1em;
+     width: 30%;
+}
+
+#repository:hover {
+     box-shadow: 0 14px 28px rgba(10, 10, 10, 0.3), 0 10px 10px rgba(100, 100, 100, 0.3);
+     background-color: whitesmoke;
+}
+
+#repository_details:hover {
+     box-shadow: 0 14px 28px rgba(10, 10, 10, 0.3), 0 10px 10px rgba(100, 100, 100, 0.3);
+     background-color: whitesmoke;
 }

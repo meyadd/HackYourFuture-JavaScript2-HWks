@@ -1,0 +1,76 @@
+html {
+     box-sizing: border-box;
+     background: url(back-ground.jpg) no-repeat center center fixed;
+     -webkit-background-size: cover;
+     -moz-background-size: cover;
+     -o-background-size: cover;
+     background-size: cover;
+}
+
+*,
+*:before,
+*:after {
+     box-sizing: inherit;
+}
+
+body {
+     font-family: monospace;
+     color: whitesmoke;
+}
+
+#lable {
+     text-align: center;
+     margin: 10px;
+     padding: 5px;
+}
+
+#lable:hover {
+     box-shadow: 0 14px 28px rgba(0, 0, 0, 0.3), 0 10px 10px rgba(5, 5, 5, 0.3);
+}
+
+#tools {
+     display: flex;
+     justify-content: space-around;
+}
+
+#textBox {
+     width: 20%;
+     height: 50px;
+     margin-top: 10px;
+     padding: 5px;
+     color: whitesmoke;
+     background: rgba(100, 100, 100, 0.4);
+     font-weight: bolder;
+     text-align: left;
+}
+
+#button {
+     width: 20%;
+     height: 50px;
+     margin-top: 10px;
+     color: whitesmoke;
+     background: rgba(0, 0, 0, 0.4);
+     font-weight: bolder;
+     border-radius: 10px;
+     text-align: center;
+}
+
+#div {
+     margin: 20px;
+     display: flex;
+     justify-content: space-around;
+}
+
+#repos {
+     width: 50%;
+     text-align: center;
+     font-size: 2em;
+     line-height: 50px;
+}
+
+#conts {
+     width: 50%;
+     text-align: center;
+     font-size: 1.5em;
+     line-height: 50px;
+}
